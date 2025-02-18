@@ -1,0 +1,36 @@
+name: eatsup
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.0-323.2.beta
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_native_splash: ^2.4.5
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter_native_splash:
+  color: "#42a5f5"  # Hintergrundfarbe des Splash Screens
+  image: assets/images/splash_screen.jpeg  # Dein Bild, das als Splash-Screen dient
+  android: true  # für Android aktivieren
+  ios: true  # für iOS aktivieren
+  web: false  # für Web deaktivieren, wenn nicht benötigt
+  android_12:
+    image: assets/images/splash_screen.jpeg
+    icon_background_color: "#42a5f5"
+    image_dark: assets/images/splash_screen.jpeg  # Falls du ein anderes Bild für Dark Mode möchtest
+    icon_background_color_dark: "#191919"  # Falls du eine andere Hintergrundfarbe für Dark Mode möchtest
+  # Für iOS ist die Anpassung anders, da iOS keine direkten Optionen für Vollbild-Splash-Screens bietet
+  ios_content_mode: scaleAspectFill
+
+flutter:
+  uses-material-design: true
+
