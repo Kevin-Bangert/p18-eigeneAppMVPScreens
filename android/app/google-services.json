@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1092630660262",
+    "firebase_url": "https://eatsup-d8b77-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "eatsup-d8b77",
+    "storage_bucket": "eatsup-d8b77.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1092630660262:android:e38e572ffe2e60aa5c6067",
+        "android_client_info": {
+          "package_name": "com.example.eatsup"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBM_Uhwt77nUyJh3v-7JK9GFU5DT1kr9HU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

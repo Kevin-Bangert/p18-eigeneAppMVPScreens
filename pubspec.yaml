@@ -7,9 +7,12 @@ environment:
   sdk: ^3.7.0-323.2.beta
 
 dependencies:
+  firebase_auth: ^5.5.1
+  firebase_core: ^3.12.1
   flutter:
     sdk: flutter
   flutter_native_splash: ^2.4.5
+  google_fonts: ^6.2.1
   
 
 dev_dependencies:
